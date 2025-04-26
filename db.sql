@@ -1,4 +1,4 @@
-create database parqueaderos_cesde;
+create database parqueadero_cesde;
 use parqueaderos_cesde;
 
 create table estatus(
