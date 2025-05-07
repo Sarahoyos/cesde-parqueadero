@@ -54,7 +54,8 @@ WHERE id_usuario = "1234567890";
 
 -- Consultar todos los vehiculos con joins
 SELECT id_placa, tipo
-INNER JOIN vehiculos ON vehiculos.id_placa = vehiculos,id_placa
+FROM vehiculos
+INNER JOIN vehiculos ON vehiculos.id_placa = vehiculos.id_placa
 WHERE id_placa = 'ABC123';
 
 --consultar todos los estacionamientos con joins
