@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Monserrat-Variable";
+    src: url("../cesde-parqueadero/fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+html {
+    font-family: "Monserrat-Variable", Arial, Helvetica, sans-serif;
+}
