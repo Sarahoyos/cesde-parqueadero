@@ -4,23 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario vehículos</title>
-    <link rel="stylesheet" href="../cesde-parqueadero/general.css">
+    <link rel="stylesheet" href="../general.css">
+    <link rel="stylesheet" href="style_cy.css">
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
 </head>
 <body>
     
 <header>
-    <img src="" alt="Logo_cesde">
+    <a href="../Pantalla-registro/pantalla-registro.html"><img src="../cesde.png" alt="Logo_cesde"></a>
     <nav>
-        <a href="#">Inicio</a>
-        <a href="#">Motos</a>
-        <a href="#">Carros</a>
+        <a href="../Pantalla-registro/pantalla-registro.html">Inicio</a>
+        <a href="#">Estudiantes</a>
+        <a href="../">Parqueaderos</a>
     </nav>
 </header>
 </body>
 <main>
-    <div class="recuadro_formulaio">
+    <h1>Para registrar el servicio, complete la siguiente información</h1>
+    <div class="recuadro_formulario">
         <div class="formulario">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, mollitia? Soluta iusto minus architecto quo sit quisquam eaque ex quibusdam quas provident blanditiis itaque impedit ab, nam sint, vitae inventore?</p>
             <form action="">
                 <label for="lestacionamiento">Seleccione su estacionamiento</label>
                 <select name="Estacionamiento" id="lestacionamiento">
@@ -37,8 +39,8 @@
                 <label for="lvalor">Valor a cobrar</label>
                 <input type="number" name="Valor_a_cobrar" id="lvalor" placeholder="Valor a cobrar" >
                   <br>
-                 <input type="submit" value="Enviar">
-                 <input type="reset" value="Limpiar">
+                 <input class="enviar" type="submit" value="Enviar">
+                 <input class="limpiar" type="reset" value="Limpiar">
             </form>
         </div>
     </div>
