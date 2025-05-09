@@ -1,71 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pantalla estudiantes</title>
-    <link rel="stylesheet" href="estudiantes.css">
-    <link rel="stylesheet" href="../general.css">
-</head>
-<body>
+    <link rel="stylesheet" href="estudiantes.css" />
+    <link rel="stylesheet" href="../general.css" />
+  </head>
+  <body>
     <header>
-        <h1>Logo cesde</h1>
-        <nav>
-            <a href="../Pantalla-registro/pantalla-registro.html">Inicio</a>
-            <a href="#">Estudiantes</a>
-            <a href="#">Parqueaderos</a>
-        </nav>
+      <div class="logo">
+        <a href="../Pantalla-registro/pantalla-registro.html"
+          ><img src="../cesde.png" alt="logo"
+        /></a>
+      </div>
+      <nav>
+        <a href="../Pantalla-registro/pantalla-registro.html">Inicio</a>
+        <a href="../pantalla-estudiantes/estudiantes.html">Estudiantes</a>
+        <a href="../Cuestionario parqueadero/Cuestionario.html">Parqueaderos</a>
+      </nav>
     </header>
     <div>
-        <h1>Para continuar con tu registro te pedimos los siguientes datos</h1>
+      <h1>Para continuar con tu registro te pedimos los siguientes datos</h1>
     </div>
     <section>
-        <form action="">
-            <!-- Lista desplegable -->
-            <label for="doc_type">Tipo de documento</label>
-            <select name="tipo de documento" id="doc_type">
-              <option value="cedula">Cédula de ciudadanía</option>
-              <option value="tarjeta_ident">Tarjeta de identidad</option>
-              <option value="cedula_ext">Cédula de extranjería</option>
-            </select>
+      <form action="" id="formulario">
+        <!-- Lista desplegable -->
+        <label for="doc_type"></label>
+        <select name="tipo de documento" id="doc_type" class="campo">
+          <option value="cedula">Cédula de ciudadanía</option>
+          <option value="tarjeta_ident">Tarjeta de identidad</option>
+          <option value="cedula_ext">Cédula de extranjería</option>
+        </select>
 
-            <label for="doc_number">Número de documento</label>
-            <input type="text" name="Numero de documento" id="lnom" placeholder="Número de documento">
-            
-            <br>
+        <label for="doc_number"></label>
+        <input class="campo"
+          type="text"
+          name="Numero de documento"
+          id="lnom"
+          placeholder="Número de documento"
+        />
 
-            <label for="p_nom">Primer nombre</label>
-            <input type="text" name="Primer Nombre" id="p_nom" placeholder="Primer nombre">
-            
-            <label for="s_nom">Segundo nombre</label>
-            <input type="text" name="Segundo Nombre" id="s_nom" placeholder="Segundo nombre">
-           
-            <br>
+        <br />
 
-            <label for="p_apell">Primer apellido</label>
-            <input type="text" name="Primer apellido" id="p_apell" placeholder="Primer apellido">
-            
-            <label for="s_apell">Segundo apellido</label>
-            <input type="text" name="Segundo apellido" id="s_apell" placeholder="Segundo apellido">
-           
-            <br>
+        <label for="p_nom"></label>
+        <input class="campo"
+          type="text"
+          name="Primer Nombre"
+          id="p_nom"
+          placeholder="Primer nombre"
+        />
 
-            <label for="lcorreo">Email</label>
-            <input type="email" name="correo" id="lcorreo" placeholder="ejemplo@dominio.com">
+        <label for="s_nom"></label>
+        <input class="campo"
+          type="text"
+          name="Segundo Nombre"
+          id="s_nom"
+          placeholder="Segundo nombre"
+        />
 
-            <label for="lcel">Número movil</label>
-            <input type="tel" name="celular" id="lcel" placeholder="Número de celular" pattern="[0-9]{10}" Maxlength="10">
+        <br />
 
-            <br>
-            <label for="placa">Placa del vehículo</label>
-            <input type="text" name="placa" id="placa" placeholder="Escribe tu placa">
+        <label for="p_apell"></label>
+        <input class="campo"
+          type="text"
+          name="Primer apellido"
+          id="p_apell"
+          placeholder="Primer apellido"
+        />
 
-            <!-- Botones del formulario Un formulario siempre lleva estos 2 botones como mínimo -->
-             <br>
-             <input type="submit" value="Enviar">
-             <input type="reset" value="Limpiar">
-        </form>
+        <label for="s_apell"></label>
+        <input class="campo"
+          type="text"
+          name="Segundo apellido"
+          id="s_apell"
+          placeholder="Segundo apellido"
+        />
+
+        <br />
+
+        <label for="lcorreo"></label>
+        <input class="campo"
+          type="email"
+          name="correo"
+          id="lcorreo"
+          placeholder="ejemplo@dominio.com"
+        />
+
+        <label for="lcel"></label>
+        <input class="campo"
+          type="tel"
+          name="celular"
+          id="lcel"
+          placeholder="Número de celular"
+          pattern="[0-9]{10}"
+          maxlength="10"
+        />
+
+        <br />
+        <label for="placa"></label>
+        <input class="campo"
+          type="text"
+          name="placa"
+          id="placa"
+          placeholder="Escribe tu placa"
+        />
+      </form>
     </section>
-    <footer>© Copyright Cesde. Todos los derechos reservados</footer>
-</body>
+    <div>
+      <input id="enviar" type="submit" onclick="document.getElementById('formulario').submit()" value="Enviar" />
+      <input id="reset" type="reset" onclick="document.getElementById('formulario').reset()" value="Limpiar" />
+    </div>
+    <footer><p>© Copyright Cesde. Todos los derechos reservados</p></footer>
+  </body>
 </html>
