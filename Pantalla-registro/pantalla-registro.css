@@ -12,6 +12,11 @@ header {
     box-shadow: 0 2px 5px 2px  rgba(0, 0, 0, 0.1);
   }
 
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+
 .info{
     display: flex;
     margin: 0 auto;
