@@ -11,39 +11,46 @@
 <body>
     
 <header>
-    <a href="../Pantalla-registro/pantalla-registro.html"><img src="../cesde.png" alt="Logo_cesde"></a>
+    <div class="logo">
+    <a href="../Pantalla-registro/pantalla-registro.html">
+        <img src="../cesde.png" alt="Logo_cesde">
+    </a>
+    </div>
     <nav>
         <a href="../Pantalla-registro/pantalla-registro.html">Inicio</a>
-        <a href="#">Estudiantes</a>
-        <a href="../">Parqueaderos</a>
+        <a href="../pantalla-estudiantes/estudiantes.html">Estudiantes</a>
+        <a href="../Cuestionario parqueadero/Cuestionario.html">Parqueaderos</a>
     </nav>
 </header>
 </body>
 <main>
     <h1>Para registrar el servicio, complete la siguiente información</h1>
-    <div class="recuadro_formulario">
+<section>
         <div class="formulario">
             <form action="">
-                <label for="lestacionamiento">Seleccione su estacionamiento</label>
-                <select name="Estacionamiento" id="lestacionamiento">
-                <option value="" disabled selected hidden> Seleccione una opción</option>
+                <label for="lestacionamiento"></label>
+                <select name="Estacionamiento" id="lestacionamiento" class="campo">
                   <option value="estacionamiento_1">Estacionamiento 1</option>
                   <option value="estacionamiento_2">Estacionamiento 2</option>
                   <option value="estacionamiento_3">Estacionamiento 3</option>
                   <option value="estacionamiento_4">Estacionamiento 4</option>
                 </select>
                 <br>
-                <label for="lplaca">Placa</label>
-                <input type="text" name="Placa" id="lplaca" placeholder="Escribe tu placa">
+                <label for="lplaca"></label>
+                <input type="text" name="Placa" id="lplaca" placeholder="Escribe tu placa" class="campo">
                 <br>
-                <label for="lvalor">Valor a cobrar</label>
-                <input type="number" name="Valor_a_cobrar" id="lvalor" placeholder="Valor a cobrar" >
+                <label for="lvalor"></label>
+                <input type="number" name="Valor_a_cobrar" id="lvalor" placeholder="Valor a cobrar" class="campo">
                   <br>
-                 <input class="enviar" type="submit" value="Enviar">
-                 <input class="limpiar" type="reset" value="Limpiar">
-            </form>
         </div>
-    </div>
+
+                <input class="enviar" type="submit" value="Enviar">
+                <input class="limpiar" type="reset" value="Limpiar">
+            </form>
+</section> 
+<div class="botonesinhos">
+
+</div>
 </main>
 <footer>
     <p>© Copyright Cesde. Todos los derechos reservados</p>
