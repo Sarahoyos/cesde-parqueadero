@@ -58,7 +58,8 @@
     justify-content: space-between;
 }
 form label,form input,form select {
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
+    text-align: center; /* Alineé la letra */
 }
 .formulario {
   border-style: solid;
@@ -66,6 +67,7 @@ form label,form input,form select {
   border-radius: 50px;
   padding: 5px;
   padding-left: 10px;
+   box-shadow: 3px 3px 3px 3px rgba(175, 123, 157, 0.5); /* Añadí sombras */
   }
   
   /* Estilos solo para el párrafo fuera del recuadro */
@@ -80,6 +82,7 @@ form label,form input,form select {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    
   }
 
   .campo{
