@@ -1,116 +1,123 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .logo img {
-    width: 150px;
-    height: auto;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    gap: 2rem;
-    font-size: 1,5rem;
-  }
-  nav a {
-    text-decoration: none;
-    color: rgb(238, 43, 123);
-    font-weight: 700;
-    transition: color 0.3s ease;
-    font-size: 1,5rem;
-  }
-  nav a:hover {
-    color: #131313; /* verde Cesde */
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
-  body {
-    background-color:white;
-    color: rgb(238, 43, 123);
-    text-align: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  main {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+.logo img {
+  width: 150px;
+  height: auto;
+}
 
-  h1{
-    margin: 30px;
-  }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 2rem;
+  font-size: 1, 5rem;
+}
 
-  section {
-    border-style: solid;
-    border-color: rgb(238, 43, 123);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    padding: 23px 10px 23px 10px;
-    margin: 0px 90px 30px 90px;
-  }
+nav a {
+  text-decoration: none;
+  color: rgb(238, 43, 123);
+  font-weight: 700;
+  transition: color 0.3s ease;
+  font-size: 1, 5rem;
+}
 
-  section form{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+nav a:hover {
+  color: #131313;
+}
 
-  .campo{
+body {
+  background-color: white;
+  color: rgb(238, 43, 123);
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
-    font-size: 1.5rem;
-    padding: 21px 0px 8px 0px;
-    border-radius: 10px;
-    border-color: rgb(238, 43, 123);
-    border-width: 2px;
-    color: rgb(238, 43, 123);
-    display: flex;
-    margin: 17px 60px 30px 60px;
-    justify-content: center;
-  }
+main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .campo::-webkit-input-placeholder {
-    text-align: center;
-    line-height: 100px;
-    color: rgb(238, 43, 123);
-  }
+h1 {
+  margin: 30px;
+}
 
-  #enviar, #reset {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 10px;
-    font-size: 26px;
-    color: white;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    background-color: rgba(238, 43, 123);
-  }
+section {
+  border-style: solid;
+  border-color: rgb(238, 43, 123);
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  padding: 23px 10px 23px 10px;
+  margin: 0px 90px 30px 90px;
+  box-shadow: 3px 3px 3px 3px rgba(175, 123, 157, 0.5); /* Añadí sombras */
+}
 
-  footer {
-    background-color: rgba(238, 43, 123, 0.8);
-    padding: 20px 0;
-    text-align: center;
-    min-height: 15vh;
-    color: white;
-    margin-top: 40px; 
-    width: 100%;
-    display: flex;
+section form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* flex-direction: row;*/
+}
+
+.campo {
+
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid rgb(238, 43, 123);
+  width: 280px; /* controla el ancho fijo */;
+  color: rgb(238, 43, 123);
+  box-sizing: border-box;
+  display: flex;
+  margin: 17px 60px 30px 60px;
+  justify-content: center;
+}
+
+.campo::-webkit-input-placeholder {
+  text-align: center;
+  line-height: 100px;
+  color: rgb(238, 43, 123);
+}
+
+#enviar,
+#reset {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: rgba(238, 43, 123);
+}
+
+footer {
+  background-color: rgba(238, 43, 123, 0.8);
+  padding: 20px 0;
+  text-align: center;
+  min-height: 15vh;
+  color: white;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
 }
 
 footer p {
@@ -121,4 +128,3 @@ footer p {
   justify-content: center;
   align-items: center;
 }
-

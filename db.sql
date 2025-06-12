@@ -46,79 +46,79 @@ constraint fk_vehiculos foreign key(id_placa) references vehiculos(id_placa),
 constraint fk_estacionamientos foreign key(id_estacionamiento) references estacionamientos(id_estacionamiento)
 );
 
---Insersión datos
+--Insersiï¿½n datos
 
 -- ESTATUS
 INSERT INTO estatus (tipo_estatus) VALUES ('Activo');
 INSERT INTO estatus (tipo_estatus) VALUES ('Inactivo');
 
 -- USUARIOS
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2756317213, 'Jorge', 'María', 'Castro', 'Torres', 'jorgecastro@fake.com', '3433218196', 1);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (137978094, 'Felipe', 'Javier', 'Galindo', 'García', 'felipegalindo@fake.com', '3890838637', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (3470967357, 'Rubiela', NULL, 'Gómez', 'Torres', 'rubielagomez@fake.com', '3542351161', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (7944927891, 'José', NULL, 'Rodríguez', 'Ramírez', 'joserodriguez@fake.com', '3078161849', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2489708607, 'Jesús', NULL, 'Vásquez', 'Torres', 'jesusvasquez@fake.com', '3034131647', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5003561321, 'Juan', 'Edwin', 'Rodríguez', 'Cifuentes', 'juanrodriguez@fake.com', '3419283276', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2402080953, 'Jhon', NULL, 'Herrera', 'Sánchez', 'jhonherrera@fake.com', '3030564139', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (9513158639, 'René', 'Gladys', 'López', 'López', 'renelopez@fake.com', '3724238849', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (6020379415, 'Edgar', 'Alberto', 'Arévalo', 'Ariza', 'edgararevalo@fake.com', '3287101226', 1);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5957530309, 'Andrés', 'Franco', 'Rivera', 'Caicedo', 'andresrivera@fake.com', '3784801845', 1);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5565540744, 'Álvaro', 'David', 'Prieto', 'Escobar', 'alvaroprieto@fake.com', '3048281489', 1);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (4961406973, 'Diego', NULL, 'Gómez', 'Torres', 'diegogomez@fake.com', '3880957015', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (1038439863, 'Nancy', 'Ana', 'Moreno', 'López', 'nancymoreno@fake.com', '3911718227', 1);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2756317213, 'Jorge', 'Marï¿½a', 'Castro', 'Torres', 'jorgecastro@fake.com', '3433218196', 1);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (137978094, 'Felipe', 'Javier', 'Galindo', 'Garcï¿½a', 'felipegalindo@fake.com', '3890838637', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (3470967357, 'Rubiela', NULL, 'Gï¿½mez', 'Torres', 'rubielagomez@fake.com', '3542351161', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (7944927891, 'Josï¿½', NULL, 'Rodrï¿½guez', 'Ramï¿½rez', 'joserodriguez@fake.com', '3078161849', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2489708607, 'Jesï¿½s', NULL, 'Vï¿½squez', 'Torres', 'jesusvasquez@fake.com', '3034131647', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5003561321, 'Juan', 'Edwin', 'Rodrï¿½guez', 'Cifuentes', 'juanrodriguez@fake.com', '3419283276', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (2402080953, 'Jhon', NULL, 'Herrera', 'Sï¿½nchez', 'jhonherrera@fake.com', '3030564139', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (9513158639, 'Renï¿½', 'Gladys', 'Lï¿½pez', 'Lï¿½pez', 'renelopez@fake.com', '3724238849', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (6020379415, 'Edgar', 'Alberto', 'Arï¿½valo', 'Ariza', 'edgararevalo@fake.com', '3287101226', 1);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5957530309, 'Andrï¿½s', 'Franco', 'Rivera', 'Caicedo', 'andresrivera@fake.com', '3784801845', 1);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (5565540744, 'ï¿½lvaro', 'David', 'Prieto', 'Escobar', 'alvaroprieto@fake.com', '3048281489', 1);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (4961406973, 'Diego', NULL, 'Gï¿½mez', 'Torres', 'diegogomez@fake.com', '3880957015', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (1038439863, 'Nancy', 'Ana', 'Moreno', 'Lï¿½pez', 'nancymoreno@fake.com', '3911718227', 1);
 INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (9738344131, 'Yaneth', NULL, 'Acevedo', 'Morales', 'yanethacevedo@fake.com', '3638346578', 2);
 INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (529709079, 'Eliana', 'Laura', 'Ortiz', 'Cuesta', 'elianaortiz@fake.com', '3509839301', 1);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (993297492, 'Jesús', NULL, 'León', 'Pérez', 'jesusleon@fake.com', '3518347382', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (993297492, 'Jesï¿½s', NULL, 'Leï¿½n', 'Pï¿½rez', 'jesusleon@fake.com', '3518347382', 2);
 INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (1758309234, 'Miguel', 'Claudia', 'Rivera', 'Villamil', 'miguelrivera@fake.com', '3656670106', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (479306919, 'Jorge', 'Luis', 'Duque', 'Benítez', 'jorgeduque@fake.com', '3872624731', 2);
-INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (430514789, 'Jaime', NULL, 'Torres', 'Gómez', 'jaimetorres@fake.com', '3801326773', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (479306919, 'Jorge', 'Luis', 'Duque', 'Benï¿½tez', 'jorgeduque@fake.com', '3872624731', 2);
+INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (430514789, 'Jaime', NULL, 'Torres', 'Gï¿½mez', 'jaimetorres@fake.com', '3801326773', 2);
 INSERT INTO usuarios (id_usuario, nombre, segundo_nombre, primer_apellido, segundo_apellido, correo, celular, user_estatus) VALUES (3885962612, 'Valentina', 'Alba', 'Rojas', 'Valderrama', 'valentinarojas@fake.com', '3064746872', 1);
 
 -- VEHICULOS
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZPD537', 'Automóvil', 2756317213);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('PVJ242', 'Automóvil', 2756317213);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('BLZ849', 'Automóvil', 137978094);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZPD537', 'Automï¿½vil', 2756317213);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('PVJ242', 'Automï¿½vil', 2756317213);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('BLZ849', 'Automï¿½vil', 137978094);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GFF532', 'Motocicleta', 137978094);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('OKY012', 'Automóvil', 137978094);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('OKY012', 'Automï¿½vil', 137978094);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('YYM691', 'Motocicleta', 3470967357);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('JAR784', 'Automóvil', 7944927891);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('XPV184', 'Automóvil', 7944927891);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KDA146', 'Automóvil', 7944927891);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GGO482', 'Automóvil', 2489708607);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('MJX489', 'Automóvil', 5003561321);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('AMU288', 'Automóvil', 5003561321);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('JAR784', 'Automï¿½vil', 7944927891);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('XPV184', 'Automï¿½vil', 7944927891);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KDA146', 'Automï¿½vil', 7944927891);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GGO482', 'Automï¿½vil', 2489708607);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('MJX489', 'Automï¿½vil', 5003561321);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('AMU288', 'Automï¿½vil', 5003561321);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('XZT701', 'Motocicleta', 5003561321);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KFF303', 'Automóvil', 2402080953);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('XII718', 'Automóvil', 9513158639);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QHM782', 'Automóvil', 9513158639);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KFF303', 'Automï¿½vil', 2402080953);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('XII718', 'Automï¿½vil', 9513158639);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QHM782', 'Automï¿½vil', 9513158639);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('WUS638', 'Motocicleta', 9513158639);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QPX346', 'Motocicleta', 6020379415);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('HPO787', 'Motocicleta', 6020379415);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('LJO150', 'Automóvil', 6020379415);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('LJO150', 'Automï¿½vil', 6020379415);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ETO930', 'Motocicleta', 5957530309);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('CVE031', 'Automóvil', 5957530309);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('CVE031', 'Automï¿½vil', 5957530309);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QFN834', 'Motocicleta', 5957530309);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KEP829', 'Automóvil', 5565540744);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('KEP829', 'Automï¿½vil', 5565540744);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GGQ763', 'Motocicleta', 5565540744);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ADU656', 'Motocicleta', 4961406973);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZUV010', 'Automóvil', 4961406973);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZUV010', 'Automï¿½vil', 4961406973);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('MIC133', 'Motocicleta', 1038439863);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('RDP262', 'Automóvil', 9738344131);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GDP178', 'Automóvil', 9738344131);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('WPK801', 'Automóvil', 9738344131);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('RDP262', 'Automï¿½vil', 9738344131);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GDP178', 'Automï¿½vil', 9738344131);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('WPK801', 'Automï¿½vil', 9738344131);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('NZD677', 'Motocicleta', 529709079);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('YQY260', 'Automóvil', 529709079);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('YQY260', 'Automï¿½vil', 529709079);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('SUY746', 'Motocicleta', 529709079);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('MSN872', 'Automóvil', 993297492);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('MSN872', 'Automï¿½vil', 993297492);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('DVU098', 'Motocicleta', 1758309234);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('EGH009', 'Automóvil', 1758309234);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('EGH009', 'Automï¿½vil', 1758309234);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('FLE208', 'Motocicleta', 479306919);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZHK913', 'Automóvil', 479306919);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('ZHK913', 'Automï¿½vil', 479306919);
 INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('CNF399', 'Motocicleta', 430514789);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('HUQ699', 'Automóvil', 430514789);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QZI353', 'Automóvil', 430514789);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('WEA475', 'Automóvil', 3885962612);
-INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GEI799', 'Automóvil', 3885962612);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('HUQ699', 'Automï¿½vil', 430514789);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('QZI353', 'Automï¿½vil', 430514789);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('WEA475', 'Automï¿½vil', 3885962612);
+INSERT INTO vehiculos (id_placa, tipo, id_usuario) VALUES ('GEI799', 'Automï¿½vil', 3885962612);
 
 -- ESTACIONAMIENTOS
 INSERT INTO estacionamientos (nombre, lugar) VALUES ('Estacionamiento 1', 'Medellin');
@@ -251,3 +251,43 @@ SELECT *
 FROM usuarios usu
 LEFT JOIN estatus es ON usu.user_estatus = es.id_estatus
 WHERE usu.id_usuario = 430514789;
+
+--Consulta compleja
+SELECT 
+    u.id_usuario,
+    CONCAT(u.nombre, ' ', ISNULL(u.segundo_nombre, ''), ' ', u.primer_apellido, ' ', ISNULL(u.segundo_apellido, '')) AS nombre_completo,
+    u.correo,
+    COUNT(DISTINCT v.id_placa) AS total_vehiculos,
+    COUNT(m.id_movimiento) AS total_visitas,
+    AVG(DATEDIFF(MINUTE, m.hora_entrada, m.hora_salida)) AS promedio_duracion_minutos
+FROM usuarios u
+INNER JOIN estatus e ON u.user_estatus = e.id_estatus
+INNER JOIN vehiculos v ON u.id_usuario = v.id_usuario
+INNER JOIN movimientos m ON v.id_placa = m.id_placa
+WHERE e.tipo_estatus = 'Activo'
+GROUP BY u.id_usuario, u.nombre, u.segundo_nombre, u.primer_apellido, u.segundo_apellido, u.correo
+ORDER BY total_visitas DESC;
+
+--Proceso almacenado
+
+--Proceso almacenbado
+
+CREATE OR ALTER PROCEDURE ObtenerMovimientosUsuario
+    @id_placa VARCHAR(20),
+    @id_usuario BIGINT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Consulta 1: Informaciï¿½n del usuario
+    SELECT * 
+    FROM usuarios 
+    WHERE id_usuario = @id_usuario;
+
+    -- Consulta 2: Movimientos de la placa
+    SELECT * 
+    FROM movimientos 
+    WHERE id_placa = @id_placa;
+END;
+
+EXEC ObtenerMovimientosUsuario @id_placa = 'DVU098', @id_usuario = 137978094;
